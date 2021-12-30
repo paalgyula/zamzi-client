@@ -1,0 +1,29 @@
+{
+  "name": "zamzi-client",
+  "version": "1.0.2",
+  "description": "Zamzi Client Packages",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/paalgyula/zamzi-client.git"
+  },
+  "keywords": [
+    "zamzi",
+    "client"
+  ],
+  "files": [
+    "lib/**/*"
+  ],
+  "author": "Paal Gyula <paalgyula@paalgyula.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}
