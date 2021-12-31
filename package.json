@@ -1,6 +1,6 @@
 {
   "name": "zamzi-client",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Zamzi Client Packages",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
